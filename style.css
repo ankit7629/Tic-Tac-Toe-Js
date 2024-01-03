@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: antiquewhite
+}
+
+.container{
+    width: 220px;
+    height: 220px;
+    background-color: white;
+    border: 1px solid rgba(128, 126, 126, 0.778);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 8px;
+    position: relative;
+}
+
+#inp{
+    width: 60px;
+    height: 60px;
+    background-color: black;
+    color: white;
+    font-size: 25px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+}
+
+.name{
+    position: absolute;
+    top: -30px;
+    left: 70px;
+}
+
